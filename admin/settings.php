@@ -467,7 +467,7 @@ function frm_input_translatable($name, $value, $label = '', $aria = '', $textare
             <div class="content" id="formTab2">
                 <h3><?php echo __('Preferences') ?></h3>
                 <fieldset>
-                    <legend><?php echo __('Preferences: Navigation Menues') ?></legend>
+                    <legend><?php echo __('Preferences: Navigation Menus') ?></legend>
                         <input type="checkbox" name="cfg[prefs][menu_show_listview]" <?php echo frm_checked($cfg->prefs->menu_show_listview) ?> aria-describedby="help_menu_show_listview" />
                             <label for="cfg[prefs][menu_show_listview]"><?php echo __('Enable list view') ?></label><br />
                             <div id="help_menu_show_listview" class="tooltip" role="tooltip" aria-hidden="true"><span><?php echo __('Show menu entry to switch to list view (otherwise it\'s always the grid view with covers)') ?></span></div>
