@@ -33,7 +33,7 @@ Known Issues
 - Sometimes the log is not outputted to the Journal Update page (likely because browser times out); you can manually check data/journals/LastUpdateLog.html or open it from the admin menu
 
 
-Added 3rd party ressources
+Added 3rd party resources
 - updated ZURB Foundation 5 to most recent version (5.5.3)
 
 

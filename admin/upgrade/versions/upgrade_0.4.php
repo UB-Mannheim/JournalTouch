@@ -80,7 +80,7 @@ Known Issues
 - Sometimes the log is not outputted to the Journal Update page (likely because browser times out); you can manually check data/journals/LastUpdateLog.html or open it from the admin menu
 
 
-Added 3rd party ressources
+Added 3rd party resources
 - Jquery UI: https://jqueryui.com/
 - foundation-select: https://github.com/roymckenzie/foundation-select
 - jquery.AreYouSure: https://github.com/codedance/jquery.AreYouSure

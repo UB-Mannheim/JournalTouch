@@ -503,7 +503,7 @@ function frm_input_translatable($name, $value, $label = '', $aria = '', $textare
                             <div id="help_screensaver_secs" class="tooltip" role="tooltip" aria-hidden="true"><span><?php echo __('Set the idle time in seconds before screensaver is displayed. Set to 0 to disable screensaver. Default is 240 seconds (4 minutes).') ?></span></div>
                         <label for="cfg[prefs][screensaver_speed]"><?php echo __('Screesaver Animation Speed') ?></label><br />
                             <input type="text" name="cfg[prefs][screensaver_speed]" value="<?php echo $cfg->prefs->screensaver_speed ?>" aria-describedby="help_screensaver_speed" />
-                            <div id="help_screensaver_speed" class="tooltip" role="tooltip" aria-hidden="true"><span><?php echo __('The screensaver moves around the screen. Set to 0 to disable (only still standing messsage). Good speed values are between 0.01 and around 0.04. Default is 0.025.') ?></span></div>
+                            <div id="help_screensaver_speed" class="tooltip" role="tooltip" aria-hidden="true"><span><?php echo __('The screensaver moves around the screen. Set to 0 to disable (only still standing message). Good speed values are between 0.01 and around 0.04. Default is 0.025.') ?></span></div>
                 </fieldset>
                 <fieldset>
                     <legend><?php echo __('Preferences: Checkout') ?></legend>
@@ -604,7 +604,7 @@ function frm_input_translatable($name, $value, $label = '', $aria = '', $textare
                     <legend><?php echo __('Api: General Settings') ?></legend>
                         <input type="checkbox" name="cfg[api][all][articleLink]" <?php echo frm_checked($cfg->api->all->articleLink) ?> aria-describedby="help_articleLink" />
                             <label for="cfg[api][all][articleLink]"><?php echo __('Make articles in tocs a clickable link') ?></label>
-                            <div id="help_articleLink" class="tooltip" role="tooltip" aria-hidden="true"><span><?php echo __('If people access JournalTouch from somewhere where they have no access to the licensed ressources, disabling the linking might be an option. They can still add the items to the basket and order them (or fetch them in the library themselves).') ?></span></div>
+                            <div id="help_articleLink" class="tooltip" role="tooltip" aria-hidden="true"><span><?php echo __('If people access JournalTouch from somewhere where they have no access to the licensed resources, disabling the linking might be an option. They can still add the items to the basket and order them (or fetch them in the library themselves).') ?></span></div>
                         <label for="cfg[api][all][is_new_days]"><?php echo __('Mark issue for how many days as new?') ?></label>
                             <input type="text" name="cfg[api][all][is_new_days]" value="<?php echo $cfg->api->all->is_new_days ?>" aria-describedby="help_is_new_days" />
                             <div id="help_is_new_days" class="tooltip" role="tooltip" aria-hidden="true"><span><?php echo __('If a new issue is found on the update (use a daily cron to keep track) it is marked as new for as many days as specified here. You might think it\'d be much cooler if the journal\'s publishing frequency would be used. Well, we think so too, but where to get it - or who would want to enter it by hand. Anyway, if you got a premium account and use the data for the live view (see below) you can ignore this setting.)') ?></span></div>

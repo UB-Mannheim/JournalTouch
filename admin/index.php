@@ -20,6 +20,6 @@ require('../sys/bootstrap.php');
 <body>
     <?php include('menu.inc') ?>
     <h2>Welcome to JournalTouch Admin</h2>
-    <p>This page is intended to provide you with more infos and help. Yet, for now just use the menues above ;)</p>
+    <p>This page is intended to provide you with more infos and help. Yet, for now just use the menus above ;)</p>
 </body>
 </html>

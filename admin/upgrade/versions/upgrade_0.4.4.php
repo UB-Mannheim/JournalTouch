@@ -27,7 +27,7 @@ Known Issues
 - JournalTOCs has faulty data for some journals, with all information stored in the "abstract" field. if you find a journal where they have this problem, tell them.
 
 
-Added 3rd party ressources
+Added 3rd party resources
 
 Credits
  @realsobek, @MPIKGLibrary and @reicheltmediadesign for their bug reports and comments
